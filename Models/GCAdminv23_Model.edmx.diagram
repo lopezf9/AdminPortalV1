@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6f2a01b739fb4d42b0d20d6db238dfca" Name="Diagram1">
+        <EntityTypeShape EntityType="GCAdminv23Model.tblActionEventActionMapping" Width="1.5" PointX="24" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblActionEvent" Width="1.5" PointX="21.75" PointY="95.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAction" Width="1.5" PointX="18.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAirport" Width="1.5" PointX="5.25" PointY="124.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAmenity" Width="1.5" PointX="16.5" PointY="137" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAmenityPage" Width="1.5" PointX="23.75" PointY="138.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAmenityPageControl" Width="1.5" PointX="26" PointY="139.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAmenityType" Width="1.5" PointX="8.25" PointY="141.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAmenityTypeMapping" Width="1.5" PointX="18.75" PointY="121.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblApplicationMenu" Width="1.5" PointX="15.75" PointY="89.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblAsset" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCastingDevice" Width="1.5" PointX="8.25" PointY="96.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCastingDeviceActionDetail" Width="1.5" PointX="21" PointY="112.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCastingDeviceActionEventDetail" Width="1.5" PointX="24" PointY="112.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCastingDeviceAditionalDetail" Width="1.5" PointX="21" PointY="117.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCastingDeviceTranctionDetail" Width="1.5" PointX="18.75" PointY="138.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblControl" Width="1.5" PointX="21" PointY="139.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCountry" Width="1.5" PointX="0.75" PointY="115.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCouponNumber" Width="1.5" PointX="7.5" PointY="82.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblCouponPackage" Width="1.5" PointX="9.75" PointY="82.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGSItemCategory" Width="1.5" PointX="15.75" PointY="152.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGSRequestsModifierMapping" Width="1.5" PointX="26" PointY="160.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGSRequestsModifierMapping_22" Width="1.5" PointX="26" PointY="127" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGSRequestStatu" Width="1.5" PointX="26" PointY="172.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuest" Width="1.5" PointX="10.5" PointY="72.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuest_old" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuestCoupon" Width="1.5" PointX="12.75" PointY="82.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuestMRService" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuestPackage" Width="1.5" PointX="12.75" PointY="131.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuestRoomMapping" Width="1.5" PointX="18.75" PointY="107.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuestServiceRequest" Width="1.5" PointX="23.75" PointY="123" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuestSurvey" Width="1.5" PointX="12" PointY="171" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblGuestWakeup" Width="1.5" PointX="12.75" PointY="73.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotel" Width="1.5" PointX="5.25" PointY="109.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelAddress" Width="1.5" PointX="3" PointY="115.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelAirport" Width="1.5" PointX="7.5" PointY="115.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelAmenityType" Width="1.5" PointX="10.5" PointY="115.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelCastingConfiguration" Width="1.5" PointX="7.5" PointY="92.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelCastingDevice" Width="1.5" PointX="10.5" PointY="111.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelCastingDeviceDescriptiveName" Width="1.5" PointX="7.5" PointY="100.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelCastingDeviceTVInputCommand" Width="1.5" PointX="20.75" PointY="103.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelCommunityChannel" Width="1.5" PointX="7.5" PointY="103.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelConfigProp" Width="1.5" PointX="10.5" PointY="119.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelDirectory" Width="1.5" PointX="7.5" PointY="110.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelGuestService" Width="1.5" PointX="13.5" PointY="114.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelGuestServiceType" Width="1.5" PointX="11.25" PointY="99.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelHotSOSConfiguration" Width="1.5" PointX="7.5" PointY="119.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelKPMConfig" Width="1.5" PointX="7.5" PointY="123" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelLanguageConfiguration" Width="1.5" PointX="13.5" PointY="110.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelLocalAttraction" Width="1.5" PointX="13.5" PointY="120.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelMACOUI" Width="1.5" PointX="12.75" PointY="128" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelMenuItem" Width="1.5" PointX="10.5" PointY="106.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelMenuItemLanguageMapping" Width="1.5" PointX="15.75" PointY="101.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelMenuItemParentChildLanguageMapping" Width="1.5" PointX="18" PointY="102.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelMenuItemParentChildMapping" Width="1.5" PointX="12.75" PointY="103" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelPackage" Width="1.5" PointX="10.5" PointY="123.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelPackageType" Width="1.5" PointX="8.25" PointY="131.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelPersonalization" Width="1.5" PointX="16.5" PointY="115.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelPredefinedRGNETVLAN" Width="1.5" PointX="7.5" PointY="147.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelPreference" Width="1.5" PointX="7.5" PointY="106.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelRoom" Width="1.5" PointX="16.5" PointY="109.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelScreenDetail" Width="1.5" PointX="18.75" PointY="125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelScreenMapping" Width="1.5" PointX="16.5" PointY="119.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelScreenPage" Width="1.5" PointX="21" PointY="128.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelScreenPageControl" Width="1.5" PointX="23.25" PointY="129.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelSTBTVInputCommand" Width="1.5" PointX="13.5" PointY="106.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelTemplateThemeValue" Width="1.5" PointX="13.5" PointY="124.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelTutorialDetail" Width="1.5" PointX="7.5" PointY="174.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelTutorialPage" Width="1.5" PointX="9.75" PointY="173.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelTutorialPageControl" Width="1.5" PointX="12" PointY="175.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelTVBrand" Width="1.5" PointX="16.5" PointY="123.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelTVRightsPkg" Width="1.5" PointX="16.5" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotelVLANDetail" Width="1.5" PointX="18.75" PointY="111.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotSOSIssueCategory" Width="1.5" PointX="7.5" PointY="181.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotSOSServiceIssue" Width="1.5" PointX="7.5" PointY="184.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotSOSServiceIssueCategoryMapping" Width="1.5" PointX="9.75" PointY="185" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotSOSServiceOrder" Width="1.5" PointX="12.75" PointY="184.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotwireMessage" Width="1.5" PointX="21.5" PointY="99.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotwireRoomMessage" Width="1.5" PointX="23.75" PointY="107.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotwireTemplateMsg" Width="1.5" PointX="23.75" PointY="134.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotwireTemplateMsgControl" Width="1.5" PointX="26" PointY="135.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblHotwireTemplateMsgPMSMsgMapping" Width="1.5" PointX="26" PointY="117.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblItemCategory" Width="1.5" PointX="7.5" PointY="189.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblItemCategoryParentChildMapping" Width="1.5" PointX="9.75" PointY="188.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblLanguage" Width="1.5" PointX="13.5" PointY="89.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblLocalAttraction" Width="1.5" PointX="11.25" PointY="141.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblLocalAttractionMapping" Width="1.5" PointX="15.75" PointY="127.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblMasterPackage" Width="1.5" PointX="14.25" PointY="98.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblMenuItem" Width="1.5" PointX="8.25" PointY="88.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblModifier" Width="1.5" PointX="7.5" PointY="195.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblModifierGroup" Width="1.5" PointX="7.5" PointY="198.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblModifierGroupGSItemsMapping" Width="1.5" PointX="15.75" PointY="157.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblModifierGroupMapping" Width="1.5" PointX="9.75" PointY="197.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblPackageViewHistory" Width="1.5" PointX="15" PointY="132.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblPM" Width="1.5" PointX="3" PointY="111.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblPMSRoomMessage" Width="1.5" PointX="23.75" PointY="116.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblPreference" Width="1.5" PointX="5.25" PointY="106.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblProperty" Width="1.5" PointX="8.25" PointY="150.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblQuestion" Width="1.5" PointX="7.5" PointY="126.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblQuestionOption" Width="1.5" PointX="9.75" PointY="127.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblQuestionType" Width="1.5" PointX="5.25" PointY="127.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRole" Width="1.5" PointX="7.5" PointY="231.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRoomCleanStatu" Width="1.5" PointX="18.75" PointY="166.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRoommove" Width="1.5" PointX="12.75" PointY="77" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRoomSTB" Width="1.5" PointX="18.75" PointY="117.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRoomType" Width="1.5" PointX="14.25" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRoomTypePackage" Width="1.5" PointX="18.75" PointY="129.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRPIActivityTransaction" Width="1.5" PointX="7.5" PointY="206.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRPIActivityTransactionDetail" Width="1.5" PointX="21" PointY="158.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRPICastingDeviceMapping" Width="1.5" PointX="21" PointY="124.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRPISTBMapping" Width="1.5" PointX="21" PointY="108.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblRSCategoriesTiming" Width="1.5" PointX="9.75" PointY="191.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblScreen" Width="1.5" PointX="14.25" PointY="137.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblScreen_copy" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblScreenPageCategory" Width="1.5" PointX="16.5" PointY="142.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblSTBInfo" Width="1.5" PointX="18.75" PointY="96.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblSTBStatu" Width="1.5" PointX="7.5" PointY="210.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblSubscriberService" Width="1.5" PointX="18.75" PointY="134.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblSurvey" Width="1.5" PointX="7.5" PointY="213.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblSurveyQuestion" Width="1.5" PointX="9.75" PointY="170.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblTemplate" Width="1.5" PointX="21.5" PointY="134.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblTemplateSection" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblTheme" Width="1.5" PointX="7.5" PointY="217.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblThemeSkinId" Width="1.5" PointX="5.25" PointY="228" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblThemeSkinParameter" Width="1.5" PointX="7.5" PointY="227.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblThemeSkinValue" Width="1.5" PointX="9.75" PointY="217.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblTimezone" Width="1.5" PointX="3" PointY="120" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblTVBrand" Width="1.5" PointX="9" PointY="137.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblTVInputPortCommand" Width="1.5" PointX="11.25" PointY="137.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblTVRight" Width="1.5" PointX="14.25" PointY="94.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblUser" Width="1.5" PointX="7.5" PointY="221.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblUserActivity" Width="1.5" PointX="9.75" PointY="222.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblUserRole" Width="1.5" PointX="9.75" PointY="225.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblVODdispute" Width="1.5" PointX="15" PointY="177.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCAdminv23Model.tblSTBBasicInfo" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblActionEventActionMapping79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblActionEventActionMapping97905077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblCastingDeviceActionEventDetails97905077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblCastingDeviceActionDetails97905077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelA__fkAir__44D52468" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblAmenit__fkAme__218BE82B" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblAmenit__fkAme__2744C181" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblAmenit__fkLan__2097C3F2" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblLocalA__fkAme__73901351" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblAmenit__fkTem__22800C64" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblAmenit__tblAm__2374309D" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblAmenit__tblCo__246854D6" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelA__fkAme__46BD6CDA" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblAmenit__fkHot__2838E5BA" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblApplic__fkLan__292D09F3" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelCastingDevice79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblCastingDeviceActionDetails79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblCastingDeviceActionDetails79705997" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblCastingDeviceActionEventDetails79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblCastingDeviceActionEventDetails79705997" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblCastingDeviceAditionalDetails79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblContro__fkTem__2A212E2C" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkCon__644DCFC1" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotwir__fkCon__6DD739FB" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelTutorialPageControls97705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelA__fkCou__43E1002F" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblCoupon__fkCou__2C09769E" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblCoupon__fkHot__2B155265" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestC__fkCou__36870511" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblCoupon__fkHot__2CFD9AD7" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSItem__fkHot__2DF1BF10" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSItem__fkIte__2EE5E349" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSRequ__fkGSR__2FDA0782" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSRequ__fkMod__30CE2BBB" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSRequ__fkGSR__31C24FF4" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSRequ__assig__32B6742D" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSRequ__assig__33AA9866" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSRequ__fkGue__349EBC9F" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGSRequ__statu__3592E0D8" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestC__fkGue__377B294A" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestR__fkGue__396371BC" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestS__fkGue__3B4BBA2E" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestS__fkGue__3D3402A0" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestW__fkGue__40106F4B" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblPMSRoo__fkGue__7C255952" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRoommo__fkGue__03C67B1A" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotSOSServiceOrder79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestP__fkHot__386F4D83" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblPackag__fkGue__7B313519" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblVODdis__fkGue__17CD73C7" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestR__fkHot__3A5795F5" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestS__fkHot__3C3FDE67" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestS__fkQue__3E2826D9" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblGuestS__fkSur__3F1C4B12" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotel__fkHote__41049384" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotel__fkpmsi__41F8B7BD" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotel__fkTime__42ECDBF6" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelA__fkHot__45C948A1" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelA__fkHot__47B19113" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelC__fkHot__48A5B54C" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelC__fkHot__4999D985" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelD__fkHot__4B8221F7" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelG__fkHot__4D6A6A69" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelL__fkHot__4E5E8EA2" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelM__fkHot__5046D714" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelP__fkHot__56F3D4A3" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelP__fkHot__57E7F8DC" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelP__fkHot__59D0414E" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelR__fkHot__5BB889C0" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkHot__5F891AA4" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelT__fkHot__6541F3FA" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelT__fkHot__672A3C6C" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblItemCa__fkHot__70B3A6A6" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblModifi__fkHot__75785BC3" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblModifi__fkHot__766C7FFC" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblQuesti__fkHot__7E0DA1C4" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblSTBSta__fkHot__0B679CE2" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblSurvey__fkHot__0D4FE554" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblTheme__fkHote__102C51FF" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblUser__fkHotel__13FCE2E3" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelCastingConfiguration79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelCastingDevice79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelCastingDeviceDescriptiveName79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelHotSOSConfiguration79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelKPMConfig9705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelLanguageConfiguration79777099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelPredefinedRGNETVLAN79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelSTBTVInputCommand9705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelTutorialDetails97705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelTVBrand9705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotSOSServiceIssue79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblRPIActivityTransaction9705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelCastingDeviceTVInputCommands79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelMACOUI79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelCastingDeviceTVInputCommands79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelC__fkPro__4A8DFDBE" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelG__fkGue__4C764630" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblModifi__fkHot__7854C86E" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelLanguageConfiguration79999099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelL__fkLoc__4F52B2DB" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblLocalA__fkHot__7484378A" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelM__fkHot__522F1F86" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelM__fkHot__541767F8" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelM__fkHot__550B8C31" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelM__fkMen__513AFB4D" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelM__fkLan__532343BF" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelMenuItemParentChildLanguageMapping7705067" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelMenuItemParentChildLanguageMapping8705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelP__fkHot__55FFB06A" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRoomTy__fkHot__06A2E7C5" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelP__fkLan__58DC1D15" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelP__fkPre__5AC46587" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelR__fkRoo__5CACADF9" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotwir__fkHot__6A06A917" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblPMSRoo__fkHot__7D197D8B" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRoomCl__fkHot__01DE32A8" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRoomST__fkHot__04BA9F53" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblSubscr__fkHot__0C5BC11B" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelVLANDetails79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkHot__5E94F66B" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkHot__6265874F" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkLan__5DA0D232" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkScr__607D3EDD" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkHot__6359AB88" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelS__fkTem__61716316" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelSTBTVInputCommand79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelT__fkTem__66361833" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelTutorialPage97705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelTutorialPage97705067" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelTutorialPageControls97705067" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotelTVBrand79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelT__fkMas__681E60A5" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotelT__fkTVR__691284DE" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblRPIActivityTransactionDetails79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblRPICastingDeviceMapping79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblRPICastingDeviceMapping97905077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblRPISTBMapping79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotSOSServiceIssueCategoryMapping79705099" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotSOSServiceIssueCategoryMapping79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblHotSOSServiceOrder79705997" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotwir__fkHot__6AFACD50" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotwir__fkHot__6CE315C2" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotwir__fkHot__6ECB5E34" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotwir__fkTem__6BEEF189" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblHotwir__fkPMS__6FBF826D" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblItemCa__fkChi__71A7CADF" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblItemCa__fkPar__729BEF18" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRSCate__fkIte__24334AAC" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblModifi__fkMod__7A3D10E0" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblModifi__fkMod__7760A435" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblModifi__fkMod__7948ECA7" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblQuesti__fkQue__7F01C5FD" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblQuesti__fkQue__7FF5EA36" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblSurvey__fkQue__0E44098D" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRole__fkParen__00EA0E6F" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblUserRo__fkRol__15E52B55" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRoomCl__fkUse__02D256E1" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRoomST__fkSTB__05AEC38C" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblRoomTy__fkRoo__07970BFE" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblRPIActivityTransactionDetails79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblRPISTBMapping79777999" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblScreenPageCategory79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblSurvey__fkSur__0F382DC6" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblThemeS__fkThe__12149A71" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblThemeS__fkThe__11207638" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblThemeS__fkThe__1308BEAA" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FKtblTVInputPortCommand79705077" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblUserAc__fkUse__14F1071C" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblUserRo__fkUse__16D94F8E" ManuallyRouted="false" />
+        <AssociationConnector Association="GCAdminv23Model.FK__tblVODdis__fkUse__18C19800" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

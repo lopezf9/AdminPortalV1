@@ -1,0 +1,225 @@
+﻿@model IEnumerable<AdminPortalV1.Models.tblGuest>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.firstname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.checkindate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.expectedcheckoutdate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.checkoutdate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.checkoutstatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.checkouttype)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.billamount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.roomnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.folionumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ecallowed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.vip)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.primaryguest)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.guestcount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.eventcode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.groupcode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.loyaltynumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.emailid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.language)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phonenumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dob)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.companyname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.companyaddress1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.companyaddress2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.companycode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.createddatetime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.updateddatetime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.wstatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tvright)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.checkinRequestFrom)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.firstname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.checkindate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.expectedcheckoutdate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.checkoutdate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.checkoutstatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.checkouttype)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.billamount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.roomnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.folionumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ecallowed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.vip)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.primaryguest)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.guestcount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.eventcode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.groupcode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.loyaltynumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.emailid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.language)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phonenumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dob)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.companyname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.companyaddress1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.companyaddress2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.companycode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.createddatetime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.updateddatetime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.wstatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tvright)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.checkinRequestFrom)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

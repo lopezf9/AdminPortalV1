@@ -1,0 +1,195 @@
+﻿@model IEnumerable<AdminPortalV1.Models.tblHotel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.hotelid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hotelname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.website)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.enablevalet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pmsmessagepriority)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hotelflagshipid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.managementcompanyid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hoteldescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.weathercode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.jsonurl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.disableWakeup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.createddatetime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.updateddatetime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ecallowed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.showWelcomeScreen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.showLanguageScreen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.notifySurveyPopup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.allowFETutorial)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.enableCasting)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.applyMainMenuImgAsBackgroundImg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.allowdefaultCheckout)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.defaultCheckoutTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.enableHotSOS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblHotelAddress.address1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblPM.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblTimezone.tzid)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.hotelid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hotelname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.website)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.enablevalet)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pmsmessagepriority)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hotelflagshipid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.managementcompanyid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hoteldescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.weathercode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.jsonurl)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.disableWakeup)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.createddatetime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.updateddatetime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ecallowed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.showWelcomeScreen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.showLanguageScreen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.notifySurveyPopup)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.allowFETutorial)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.enableCasting)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.applyMainMenuImgAsBackgroundImg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.allowdefaultCheckout)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.defaultCheckoutTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.enableHotSOS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblHotelAddress.address1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblPM.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblTimezone.tzid)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

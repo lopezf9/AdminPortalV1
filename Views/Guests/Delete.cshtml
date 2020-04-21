@@ -1,0 +1,288 @@
+﻿@model AdminPortalV1.Models.tblGuest
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>tblGuest</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.checkindate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.checkindate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.expectedcheckoutdate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.expectedcheckoutdate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.checkoutdate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.checkoutdate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.checkoutstatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.checkoutstatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.checkouttype)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.checkouttype)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.billamount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.billamount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.roomnumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.roomnumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.folionumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.folionumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ecallowed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ecallowed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.primaryguest)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.primaryguest)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.guestcount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.guestcount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.eventcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.eventcode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.groupcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.groupcode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.loyaltynumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.loyaltynumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emailid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emailid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.language)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.language)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phonenumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phonenumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dob)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dob)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.companyname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.companyname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.companyaddress1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.companyaddress1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.companyaddress2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.companyaddress2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.companycode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.companycode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.createddatetime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.createddatetime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.updateddatetime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.updateddatetime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.wstatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.wstatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tvright)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tvright)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.checkinRequestFrom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.checkinRequestFrom)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
